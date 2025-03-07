@@ -1,0 +1,26 @@
+console.log ("Media")
+
+let SomaAlturasMasculinos = 0;
+let contadorMasculino = 0;
+let SomaAlturaFemininos = 0;
+let contadorFeminos = 0;
+
+    for( let i = 1; i <= 2; i++) {
+prompt (" Disserte a altura da pessoa em metros; ")
+    altura = SomaAlturaFemininos + SomaAlturasMasculinos
+    if (altura >= 0 ) {
+        
+        let genero = prompt("Digite o gênero ( M para Masculino, F para Feminino):")
+            if (genero === "M") {
+                SomaAlturasMasculinos += altura;
+                contadorMasculino++;
+    } else if (genero === "F") {
+               SomaAlturaFemininos += altura;
+               contadorFeminos++;
+
+
+
+
+        }
+    }
+}
